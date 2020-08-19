@@ -172,8 +172,8 @@ end
 
 function populate_byte_array(filepath::AbstractString)
     byte_dict = Dict{Char, UInt8}('A' => 136,
-                                    'C' => 72,
-                                    'G' => 40,
+                                    'G' => 72,
+                                    'C' => 40,
                                     'T' => 24,
                                     'R' => 192,
                                     'M' => 160,
@@ -214,8 +214,8 @@ end
 
 function get_seq_from_1D_byte_array(byte_V)
     nuc_dict = Dict{UInt8, Char}(136 => 'A',
-                                 72 => 'C',
-                                 40 => 'G',
+                                 72 => 'G',
+                                 40 => 'C',
                                  24 => 'T',
                                  192 => 'R',
                                  160 => 'M',
