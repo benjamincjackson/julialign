@@ -2,7 +2,9 @@
 
 A few functions for working with alignments in FASTA format
 
-Requires Julia version `>=` `1.3.1` to be available.
+Requires Julia version `>=` `1.3.1`
+
+Julialign uses the bit-level coding scheme for nucleotides developed by Emmanual Paradis (described [here](http://ape-package.ird.fr/misc/BitLevelCodingScheme.html), and implemented in the R package [ape](https://doi.org/10.1093/bioinformatics/btg412)).
 
 ### Commands
 
