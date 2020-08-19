@@ -17,8 +17,8 @@ end
 function type_deletions(nuc_bit_array, del_tuple_array)
     # type specific deletions in an alignment
     byte_dict = Dict{Char, UInt8}('A' => 136,
-                                    'C' => 72,
-                                    'G' => 40,
+                                    'G' => 72,
+                                    'C' => 40,
                                     'T' => 24,
                                     'R' => 192,
                                     'M' => 160,
@@ -74,8 +74,8 @@ function type_deletions_and_append_as_SNP(nuc_bit_array, del_tuple_array)
     # type specific deletions in an alignment
     # and append(/prepend?) them as genotypes
     byte_dict = Dict{Char, UInt8}('A' => 136,
-                                    'C' => 72,
-                                    'G' => 40,
+                                    'G' => 72,
+                                    'C' => 40,
                                     'T' => 24,
                                     'R' => 192,
                                     'M' => 160,
